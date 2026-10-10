@@ -1,0 +1,9 @@
+# Ignore específico do src/Dockerfile (o BuildKit procura <Dockerfile>.dockerignore ao lado dele)
+**
+!pyproject.toml
+!uv.lock
+!README.md
+!src/
+src/Dockerfile*
+**/__pycache__
+**/*.pyc
